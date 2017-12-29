@@ -1,0 +1,57 @@
+.hoursTable {
+  font-family: 'Josefin Slab', serif;
+  margin: 10px;
+}
+.hoursTableMobile {
+  font-family: 'Josefin Slab', serif;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+.hoursHeader, hoursNote {
+  text-align: center;
+}
+.headerColumn {
+  font-weight: bold;
+  background: #f9fafb;
+}
+
+@media screen and (min-width: 20px) {
+  .hoursTable {
+    display: none;
+  }
+  .hoursTableMobile {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .hoursTable {
+    display: block;
+    font-size: 12pt;
+  }
+  .hoursNote {
+    font-size: 9pt;
+  }
+  .hoursTableMobile {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hoursTable {
+    display: block;
+    font-size: 14pt;
+  }
+  .hoursHeader {
+    padding-top: 10px;
+    padding-bottom: 6px;
+  }
+  .hoursNote {
+    font-size: 13pt;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+  .hoursTableMobile {
+    display: none;
+  }
+}

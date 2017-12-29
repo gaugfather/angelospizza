@@ -1,0 +1,49 @@
+#aboutUs {
+  padding-bottom: 50px;
+}
+
+.atmosphereHeader {
+  font-family: 'Fredericka the Great', cursive;
+  line-height: 1.1em;
+}
+
+.atmosphere {
+  font-family: 'Josefin Slab', serif;
+  line-height: 1.1em;
+}
+
+@media screen and (min-width: 20px) {
+  .atmosphereHeader {
+    padding-top: 24px;
+    font-size: 20pt;
+    padding-bottom: 12px;
+  }
+  .atmosphere {
+    font-size: 12pt;
+    padding: 9px;
+  }
+}
+
+@media screen and (min-width: 560px) {
+  .atmosphereHeader {
+    padding-top: 24px;
+    font-size: 25pt;
+    padding-bottom: 12px;
+  }
+  .atmosphere {
+    font-size: 18pt;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .atmosphereHeader {
+    padding-top: 24px;
+    font-size: 30pt;
+    padding-bottom: 12px;
+  }
+  .atmosphere {
+      font-size: 22pt;
+      padding: 24px;
+  }
+}

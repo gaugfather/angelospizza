@@ -1,0 +1,75 @@
+#home {
+  padding-bottom: 50px;
+}
+.welcome {
+  font-family: 'Fredericka the Great', cursive;
+}
+.welcome1, .welcome2 {
+  font-family: 'Josefin Slab', serif;
+  line-height: 1.1em;
+}
+
+.mainSegment {
+  margin-bottom: 24px !important;
+  background: rgba(255, 255, 255, 0.6) !important;
+  padding: 0 !important;
+}
+
+@media screen and (min-width: 20px) {
+  .mainSegment {
+    margin-top: 12px !important;
+  }
+
+  .welcome {
+    font-size: 20pt;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .welcome1 {
+    font-size: 14pt;
+    padding-top: 12px;
+  }
+  .welcome2 {
+    font-size: 12pt;
+    color: #626265;
+    padding-top: 12px;
+  }
+}
+
+@media screen and (min-width: 560px) {
+  .welcome {
+    font-size: 30pt;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .welcome1 {
+    font-size: 20pt;
+    padding-top: 20px;
+  }
+  .welcome2 {
+    font-size: 18pt;
+    color: #626265;
+    padding-top: 18px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .welcomeContainer {
+    padding-top: 32px;
+  }
+
+  .welcome {
+    font-size: 30pt;
+    padding-top: 30px;
+    padding-bottom: 12px;
+  }
+  .welcome1 {
+    font-size: 22pt;
+    padding-top: 26px;
+  }
+  .welcome2 {
+    font-size: 18pt;
+    color: #626265;
+    padding-top: 26px;
+  }
+}

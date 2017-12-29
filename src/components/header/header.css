@@ -1,0 +1,58 @@
+#header {
+  font-family: 'Josefin Slab', serif;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.subtitle {
+  padding-bottom: .4em;
+}
+
+#main-menu {
+  font-family: 'Josefin Slab', serif;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (min-width: 20px) {
+  #main-menu {
+    font-size: 10pt;
+  }
+  .title {
+    font-size: 21pt;
+    padding-bottom: 24px;
+    padding-top: 20px;
+  }
+  .subtitle {
+    font-size: 13pt;
+  }
+}
+
+@media screen and (min-width: 560px) {
+  #main-menu {
+    font-size: 14pt;
+  }
+  .title {
+    font-size: 30pt;
+    padding-bottom: 18px;
+    padding-top: 30px;
+  }
+  .subtitle {
+    font-size: 15pt;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #main-menu {
+    font-size: 20pt;
+  }
+  .title {
+    font-size: 44pt;
+    padding-bottom: 24px;
+    padding-top: 36px;
+  }
+  .subtitle {
+    font-size: 18pt;
+  }
+}

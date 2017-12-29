@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  background: url('./components/home/Italy-Flag-3.jpg') no-repeat center center fixed !important;
+}

@@ -1,0 +1,17 @@
+#footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid rgba(255, 255, 255, 0.6);
+  font-family: 'Josefin Slab', serif;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.footerTitle {
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.footerSubtitle {
+  font-size: 10pt;
+}
