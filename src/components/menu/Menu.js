@@ -4,6 +4,7 @@ import './menu.css';
 import Appetizers from './appetizers/Appetizers';
 import SpecialtyPizzas from './specialtyPizzas/SpecialtyPizzas';
 import Salads from './salads/Salads';
+import Pastas from './pastas/Pastas';
 
 class Menu extends Component {
 
@@ -29,11 +30,13 @@ class Menu extends Component {
                   <List.Item as='a' onClick={this.goToSection} section="appetizers">Appetizers</List.Item>
                   <List.Item as='a' onClick={this.goToSection} section="specialtyPizzas">Specialty Pizzas</List.Item>
                   <List.Item as='a' onClick={this.goToSection} section="salads">Salads</List.Item>
+                  <List.Item as='a' onClick={this.goToSection} section="pastas">Pastas</List.Item>
                 </List>
               </div>
               <Appetizers/>
               <SpecialtyPizzas/>
               <Salads/>
+              <Pastas/>
             </div>
           </Segment>
         </Container>
