@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import { List} from 'semantic-ui-react';
 import {appetizersDto} from './appetizersDto';
-import Appetizer from './Appetizer';
 
 class Appetizers extends Component {
   render() {
     let appetizers = [];
     appetizersDto.forEach((appetizer, index) => {
       appetizers.push(
-        <Appetizer key={index} appetizer={appetizer} />
+        <List.Item key={index}>
+          <List.Header>{appetizer.name}......{appetizer.price}</List.Header>
+            {appetizer.description}
+        </List.Item>
       );
     });
 

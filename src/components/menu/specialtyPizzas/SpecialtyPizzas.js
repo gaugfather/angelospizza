@@ -1,14 +1,21 @@
 import React, { Component } from 'react';
 import { List} from 'semantic-ui-react';
 import {specialtyPizzasDto} from './specialtyPizzasDto';
-import SpecialtyPizza from './SpecialtyPizza';
 
 class SpecialtyPizzas extends Component {
   render() {
     let specialtyPizzas = [];
     specialtyPizzasDto.forEach((specialtyPizza, index) => {
       specialtyPizzas.push(
-        <SpecialtyPizza key={index} specialtyPizza={specialtyPizza} />
+        <List.Item key={index}>
+          <List.Header>{specialtyPizza.name}</List.Header>
+            {specialtyPizza.description}
+            <List.Item>
+              <i>Small (12"")</i>......{specialtyPizza.smallPrice} <br />
+              <i>Medium (14"")</i>......{specialtyPizza.mediumPrice} <br />
+              <i>Large (16"")</i>......{specialtyPizza.largePrice}
+            </List.Item>
+        </List.Item>
       );
     });
 
