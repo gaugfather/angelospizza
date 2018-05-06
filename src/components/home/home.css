@@ -8,11 +8,13 @@
   font-family: 'Josefin Slab', serif;
   line-height: 1.1em;
 }
-
 .mainSegment {
   margin-bottom: 24px !important;
   background: rgba(255, 255, 255, 0.6) !important;
   padding: 0 !important;
+}
+.thumbs-wrapper {
+  cursor: pointer;
 }
 
 @media screen and (min-width: 20px) {

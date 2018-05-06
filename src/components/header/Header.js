@@ -29,7 +29,7 @@ class Header extends Component {
         <div>
           <div className="title">Angelo's Family Pizzeria</div>
           <div className="facebook" onClick={this.facebookClick}>
-            <img src={facebookIcon} />
+            <img src={facebookIcon} alt="facebookIcon"/>
           </div>
           <div className="subtitle">715-845-6225</div>
           <div className="subtitle">1206 6th Street, Wausau, WI 54403</div>
