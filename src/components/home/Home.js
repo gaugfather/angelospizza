@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './home.css';
-import { Container, Segment } from 'semantic-ui-react';
+import { Container, Segment, Icon } from 'semantic-ui-react';
 import HomeCarousel from './carousel/HomeCarousel';
+import OpeningModal from './openingModal/OpeningModal';
 
 class Home extends Component {
   render() {
@@ -17,6 +18,19 @@ class Home extends Component {
               <br />
             </Segment>
             <HomeCarousel />
+            <OpeningModal />
+            <Segment className="mainSegment">
+              <div className="welcome1"><Icon name='newspaper' />News Archive</div>
+              <div className="welcome2"><Icon name='money'/>Personal Checks</div>
+              <div className="welcome3">Sorry for any inconvenience, we can no longer accept personal checks</div>
+              <div className="welcome2"><Icon name='wifi'/>Free Wi-Fi!</div>
+              <div className="welcome3">Stay connected, with our free wireless internet!</div>
+              <div className="welcome2"><Icon name='car' />Take 'N' Bake Pizza!</div>
+              <div className="welcome3">For your convenience, try a bake at home pizza!</div>
+              <div className="welcome2"><Icon name='users' />We're hiring!</div>
+              <div className="welcome3">Stop by and apply within</div>
+              <br />
+            </Segment>
           </div>
         </Container>
       </div>

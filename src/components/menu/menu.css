@@ -36,15 +36,28 @@
   padding-bottom: 1em !important;
 }
 
+.downloadMenu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 2%;
+  margin-top: 1%;
+}
+
 @media screen and (min-width: 20px) {
   .menuHeader {
-    padding-top: 24px;
+    padding-top: 65px;
     font-size: 20pt;
     padding-bottom: 12px;
   }
   .menu {
     font-size: 12pt;
     padding: 9px;
+  }
+  .downloadMenu {
+    position: absolute;
+    right: 0;
+    top: 0;
   }
 }
 

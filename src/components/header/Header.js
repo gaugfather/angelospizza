@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { Menu } from 'semantic-ui-react';
+import { Menu, Button } from 'semantic-ui-react';
 import {Link} from "react-router-dom";
 import './header.css';
+import facebookIcon from "./facebook_icon.png";
 
 class Header extends Component {
 
@@ -11,10 +12,15 @@ class Header extends Component {
             activeItem: 'home'
           };
           this.handleItemClick = this.handleItemClick.bind(this);
+          this.facebookClick = this.facebookClick.bind(this);
   }
 
   handleItemClick(event, item) {
     this.setState({activeItem: item.name});
+  }
+  
+  facebookClick() {
+    window.open('https://www.facebook.com/Angelos-Family-Pizzeria-140523912649155/', '_blank');
   }
 
   render() {
@@ -22,8 +28,11 @@ class Header extends Component {
       <div id="header">
         <div>
           <div className="title">Angelo's Family Pizzeria</div>
+          <div className="facebook" onClick={this.facebookClick}>
+            <img src={facebookIcon} />
+          </div>
           <div className="subtitle">715-845-6225</div>
-            <div className="subtitle">1206 6th Street, Wausau, WI 54403</div>
+          <div className="subtitle">1206 6th Street, Wausau, WI 54403</div>
         </div>
         <Menu id="main-menu" pointing secondary fluid widths={5}>
           <Menu.Item name='home' as={Link} to='/' active={this.state.activeItem === 'home'} onClick={this.handleItemClick} />

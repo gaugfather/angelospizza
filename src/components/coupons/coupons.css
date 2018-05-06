@@ -8,7 +8,7 @@
 
 @media screen and (min-width: 20px) {
   .couponsLink {
-    font-size: 13pt;
+    font-size: 14pt;
     padding-bottom: 24px;
     padding-top: 20px;
   }
@@ -16,7 +16,7 @@
 
 @media screen and (min-width: 560px) {
   .couponsLink {
-    font-size: 15pt;
+    font-size: 17pt;
     padding-bottom: 18px;
     padding-top: 30px;
   }
@@ -24,7 +24,7 @@
 
 @media screen and (min-width: 768px) {
   .couponsLink {
-    font-size: 18pt;
+    font-size: 23pt;
     padding-bottom: 24px;
     padding-top: 36px;
   }

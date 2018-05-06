@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Segment, List} from 'semantic-ui-react';
+import { Container, Segment, List, Button} from 'semantic-ui-react';
 import './menu.css';
 import Appetizers from './appetizers/Appetizers';
 import SpecialtyPizzas from './specialtyPizzas/SpecialtyPizzas';
@@ -17,10 +17,15 @@ class Menu extends Component {
     super(props);
 
     this.goToSection = this.goToSection.bind(this);
+    this.downloadMenu = this.downloadMenu.bind(this);
   }
 
   goToSection(e, obj) {
     window.location.hash = obj.section;
+  }
+  
+  downloadMenu() {
+    window.open('./menu-2017.pdf', '_blank');
   }
 
   render() {
@@ -28,7 +33,9 @@ class Menu extends Component {
       <div id="menu">
         <Container>
           <Segment className="mainSegment">
-            <div className="menuHeader">Our Menu</div>
+            <div className="menuHeader">Our Menu
+              <div className="downloadMenu"><Button secondary onClick={this.downloadMenu}>Download PDF</Button></div>
+            </div>
             <div className="menu">
               <div className="contents">
                 <List bulleted horizontal link>

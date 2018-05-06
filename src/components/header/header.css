@@ -10,6 +10,15 @@
   padding-bottom: .4em;
 }
 
+.facebook {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+
 #main-menu {
   font-family: 'Josefin Slab', serif;
   background: rgba(255, 255, 255, 0.6);
@@ -27,6 +36,9 @@
   .subtitle {
     font-size: 13pt;
   }
+  .facebook {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 560px) {
@@ -40,6 +52,9 @@
   }
   .subtitle {
     font-size: 15pt;
+  }
+  .facebook {
+    display: inline;
   }
 }
 
