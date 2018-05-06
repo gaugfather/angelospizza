@@ -8,9 +8,18 @@ class Header extends Component {
 
   constructor(props) {
           super(props);
+
+          let pathname = window.location.pathname;
+          if(pathname && pathname.length > 1) {
+            pathname = pathname.substring(1);
+          } else {
+            pathname = 'home';
+          }
+
           this.state = {
-            activeItem: 'home'
+            activeItem: pathname
           };
+
           this.handleItemClick = this.handleItemClick.bind(this);
           this.facebookClick = this.facebookClick.bind(this);
   }
@@ -18,7 +27,7 @@ class Header extends Component {
   handleItemClick(event, item) {
     this.setState({activeItem: item.name});
   }
-  
+
   facebookClick() {
     window.open('https://www.facebook.com/Angelos-Family-Pizzeria-140523912649155/', '_blank');
   }
