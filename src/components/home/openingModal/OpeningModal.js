@@ -25,8 +25,9 @@ class OpeningModal extends Component {
         <Modal.Header><Icon name='newspaper' />Latest News!</Modal.Header>
         <Modal.Content>
           <Modal.Description>
-            <div className="welcome1"><Icon name='wrench' />Oven Repairs!</div>
-            <p className="welcome2">Sorry, we're closed <span style={{'fontWeight': 'bold'}}>5/14-5/15</span> for oven repairs!</p>
+            <div className="welcome1"><Icon name='wrench' />Pizza Oven Repairs</div>
+            <p className="welcome2" style={{marginBottom: '0px'}}>Unfortunately, we'll be closed <span style={{'fontWeight': 'bold'}}>Monday, May 14 & Tuesday May 15</span> for oven repairs.</p>
+            <p className="welcome2">We apologize for the inconvenience!</p>
           </Modal.Description>
         </Modal.Content>
         <Modal.Actions>
