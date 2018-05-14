@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './home.css';
 import { Container, Segment, Icon } from 'semantic-ui-react';
 import HomeCarousel from './carousel/HomeCarousel';
-import OpeningModal from './openingModal/OpeningModal';
 
 class Home extends Component {
   render() {
@@ -18,7 +17,6 @@ class Home extends Component {
               <br />
             </Segment>
             <HomeCarousel />
-            <OpeningModal />
             <Segment className="mainSegment">
               <div className="welcome1"><Icon name='newspaper' />News Archive</div>
               <div className="welcome2"><Icon name='money'/>Personal Checks</div>
