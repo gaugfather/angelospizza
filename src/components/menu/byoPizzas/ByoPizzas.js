@@ -10,7 +10,7 @@ class ByoPizzas extends Component {
         <List.Item key={index}>
           <List.Header>{pizza.name}</List.Header>
             Small......{pizza.smallPrice} <br />
-            Medium......{pizza.smallPrice} <br />
+            Medium......{pizza.mediumPrice} <br />
             Large......{pizza.largePrice}
         </List.Item>
       );
