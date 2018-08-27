@@ -1,7 +1,7 @@
 export const saladsDto = [
     {
-      name: 'Garlic Bread',
-      price: '$7.95',
-      description: 'Fresh baked bread topped with garlic butter'
+      name: 'Garden Salad',
+      price: '$3.45',
+      description: 'Fresh tossed salad greens topped with crouton, cucumbers, and your choice of dressing'
     }
 ];
