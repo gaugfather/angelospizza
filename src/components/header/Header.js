@@ -24,6 +24,13 @@ class Header extends Component {
           this.facebookClick = this.facebookClick.bind(this);
   }
 
+  componentDidUpdate(prevProps, prevState, snapshot) {
+    let pathname = window.location.pathname;
+    if(pathname && pathname.length > 1 && prevState.activeItem !== pathname.substring(1)) {
+      this.setState({activeItem: pathname.substring(1)});
+    }
+    
+  }
   handleItemClick(event, item) {
     this.setState({activeItem: item.name});
   }
