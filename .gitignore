@@ -19,3 +19,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#angelos specific
+non-www-site-index.html
+s3-access-keys
+
