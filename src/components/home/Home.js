@@ -3,6 +3,7 @@ import './home.css';
 import { Container, Segment, Icon } from 'semantic-ui-react';
 import HomeCarousel from './carousel/HomeCarousel';
 import {Redirect} from "react-router-dom";
+import OpeningModal from './openingModal/OpeningModal';
 
 const AVAILABLE_MENUS = ["home", "menu", "coupons", "directions", "aboutUs"];
 
@@ -27,6 +28,7 @@ class Home extends Component {
     } else {
       return (
         <div id="home">
+          <OpeningModal />
           <Container>
             <div className="welcomeContainer">
               <Segment className="mainSegment">

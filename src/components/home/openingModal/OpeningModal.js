@@ -1,43 +1,40 @@
 import React, {Component} from 'react';
-import { Modal, Button, Icon  } from 'semantic-ui-react'; 
+import { Modal, Button, Icon  } from 'semantic-ui-react';
 
 class OpeningModal extends Component {
-  
+
   constructor(props) {
     super(props);
-    
+
     this.state = {
       isOpen: true
     };
-    
+
     this.close = this.close.bind(this);
   }
-  
+
   close() {
     this.setState({isOpen: false});
   }
 
   render() {
-    
+
     return (
-      <div>
       <Modal dimmer={'inverted'} open={this.state.isOpen} onClose={this.close}>
-        <Modal.Header><Icon name='newspaper' />Latest News!</Modal.Header>
+        <Modal.Header><p className="welcome1"><Icon name='bullhorn' style={{marginRight: '12px'}}/>We're Hiring!</p></Modal.Header>
         <Modal.Content>
           <Modal.Description>
-            <div className="welcome1"><Icon name='wrench' />Pizza Oven Repairs</div>
-            <p className="welcome2" style={{marginBottom: '0px'}}>Unfortunately, we'll be closed <span style={{'fontWeight': 'bold'}}>Monday, May 14 & Tuesday May 15</span> for oven repairs.</p>
-            <p className="welcome2">We apologize for the inconvenience!</p>
+            <p className="welcome2">Part-time Bartenders!<Icon name='beer' style={{marginLeft: '12px'}}/><Icon name='beer'/></p>
+            <p className="welcome2"><Icon name='smile' style={{marginRight: '12px'}}/>Apply within!</p>
           </Modal.Description>
         </Modal.Content>
         <Modal.Actions>
           <Button positive icon='checkmark' labelPosition='right' content="Ok" onClick={this.close} />
         </Modal.Actions>
       </Modal>
-      </div>
     );
   }
-  
+
 }
 
 export default OpeningModal;
