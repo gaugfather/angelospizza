@@ -24,8 +24,7 @@ class OpeningModal extends Component {
         <Modal.Header><p className="welcome1"><Icon name='newspaper outline' style={{marginRight: '12px'}}/>Today's News!</p></Modal.Header>
         <Modal.Content>
           <Modal.Description>
-            <p className="welcome2"><Icon name='clock outline' />We'll be closed Christmas Eve & Christmas Day. Happy Holidays! <Icon name='tree' style={{marginLeft: '6px', marginRight: '6px'}}/></p>          
-            <p className="welcome2"><Icon name='search' />We're hiring Part-time Bartenders! <br />   Apply within! <Icon name='beer' style={{marginLeft: '6px', marginRight: '6px'}}/></p>            
+            <p className="welcome2"><Icon name='search' />We're hiring Part-time Bartenders! <br />   <span style={{marginLeft: '1em'}}>Apply within! </span><Icon name='beer' style={{marginLeft: '6px'}}/><Icon name='beer' style={{marginLeft: '6px'}}/></p>            
           </Modal.Description>
         </Modal.Content>
         <Modal.Actions>

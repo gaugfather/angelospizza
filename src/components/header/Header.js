@@ -3,6 +3,7 @@ import { Menu } from 'semantic-ui-react';
 import {Link} from "react-router-dom";
 import './header.css';
 import facebookIcon from "./facebook_icon.png";
+import OpeningModal from './openingModal/OpeningModal';
 
 class Header extends Component {
 
@@ -29,7 +30,7 @@ class Header extends Component {
     if(pathname && pathname.length > 1 && prevState.activeItem !== pathname.substring(1)) {
       this.setState({activeItem: pathname.substring(1)});
     }
-    
+
   }
   handleItemClick(event, item) {
     this.setState({activeItem: item.name});
@@ -50,6 +51,7 @@ class Header extends Component {
           <div className="subtitle">715-845-6225</div>
           <div className="subtitle">1206 6th Street, Wausau, WI 54403</div>
         </div>
+        <OpeningModal />
         <Menu id="main-menu" pointing secondary fluid widths={5}>
           <Menu.Item name='home' as={Link} to='/' active={this.state.activeItem === 'home'} onClick={this.handleItemClick} />
           <Menu.Item name='menu' as={Link} to='menu' active={this.state.activeItem === 'menu'} onClick={this.handleItemClick} />
