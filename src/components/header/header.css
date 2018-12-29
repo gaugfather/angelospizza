@@ -19,6 +19,12 @@
   margin-top: 2%;
 }
 
+/* https://github.com/Semantic-Org/Semantic-UI/issues/6267 */
+.ui.page.modals.dimmer.transition.visible.active {
+  display:flex !important;
+  margin: 0;
+}
+
 #main-menu {
   font-family: 'Josefin Slab', serif;
   background: rgba(255, 255, 255, 0.6);
