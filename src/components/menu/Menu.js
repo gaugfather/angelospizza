@@ -23,9 +23,9 @@ class Menu extends Component {
   goToSection(e, obj) {
     window.location.hash = obj.section;
   }
-  
+
   downloadMenu() {
-    window.open('./menu-2017.pdf', '_blank');
+    window.open('./menu-2018.pdf', '_blank');
   }
 
   render() {
@@ -36,6 +36,7 @@ class Menu extends Component {
             <div className="menuHeader">Our Menu
               <div className="downloadMenu"><Button secondary onClick={this.downloadMenu}>Download PDF</Button></div>
             </div>
+            <div>* Prices are subject to change *</div>
             <div className="menu">
               <div className="contents">
                 <List bulleted horizontal link>
