@@ -16,6 +16,9 @@
 .thumbs-wrapper {
   cursor: pointer;
 }
+.mainSegment .icon {
+  margin-right: 1rem;
+}
 
 @media screen and (min-width: 20px) {
   .mainSegment {

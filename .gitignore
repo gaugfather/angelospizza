@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+.npmrc
 
 # testing
 /coverage
@@ -23,4 +24,3 @@ yarn-error.log*
 #angelos specific
 non-www-site-index.html
 s3-access-keys
-
