@@ -7,10 +7,10 @@
     "react-dom": "^16.8.6",
     "react-google-maps": "^9.4.5",
     "react-responsive-carousel": "^3.1.49",
-    "react-router-dom": "^5.0.0",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
     "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^0.87.1",
+    "semantic-ui-react": "^0.87.3",
     "typeface-fredericka-the-great": "0.0.72",
     "typeface-josefin-slab": "0.0.72"
   },
@@ -20,5 +20,17 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "build-and-deploy": "npm run-script build && s3cmd sync build/* s3://www.angelospizzawausau.com && echo 'Deployed!'"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
