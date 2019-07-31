@@ -7,12 +7,12 @@ export const sandwichesDto = {
     },
     {
       name: 'Italian Hamburger with Cheese',
-      price: '$9.50',
+      price: '$9.95',
       description: 'Lean ground beef seasoned with Italian seasonings and topped with melted mozzarella cheese. The best that you will ever have'
     },
     {
       name: 'Meatball Sub with Cheese',
-      price: '$9.50',
+      price: '$9.95',
       description: null
     },
     {
@@ -22,7 +22,7 @@ export const sandwichesDto = {
     },
     {
       name: 'Italian Sausage with Cheese',
-      price: '$9.50',
+      price: '$9.95',
       description: null
     },
     {
@@ -32,7 +32,7 @@ export const sandwichesDto = {
     },
     {
       name: '1/2 Lb. Hamburger with Cheese',
-      price: '$9.50',
+      price: '$9.95',
       description: null
     }
   ]

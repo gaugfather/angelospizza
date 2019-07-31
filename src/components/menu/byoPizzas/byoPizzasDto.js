@@ -8,33 +8,33 @@ export const byoPizzasDto = {
     },
     {
       name: 'One Topping',
-      smallPrice: '$14.25',
-      mediumPrice: '16.25',
-      largePrice: '$18.25'
+      smallPrice: '$14.95',
+      mediumPrice: '16.95',
+      largePrice: '$18.95'
     },
     {
       name: 'Two Toppings',
-      smallPrice: '$14.75',
-      mediumPrice: '16.75',
-      largePrice: '$18.75'
+      smallPrice: '$15.95',
+      mediumPrice: '17.95',
+      largePrice: '$19.95'
     },
     {
       name: 'Three Toppings',
-      smallPrice: '$15.75',
-      mediumPrice: '17.75',
-      largePrice: '$19.75'
+      smallPrice: '$16.95',
+      mediumPrice: '18.95',
+      largePrice: '$20.95'
     },
     {
       name: 'Four Toppings',
-      smallPrice: '$16.75',
-      mediumPrice: '18.75',
-      largePrice: '$20.75'
+      smallPrice: '$17.50',
+      mediumPrice: '19.50',
+      largePrice: '$21.50'
     },
     {
       name: 'Five Toppings',
-      smallPrice: '$17.25',
-      mediumPrice: '19.25',
-      largePrice: '$21.25'
+      smallPrice: '$17.95',
+      mediumPrice: '19.95',
+      largePrice: '$21.95'
     }
   ]
 };

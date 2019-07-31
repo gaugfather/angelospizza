@@ -51,7 +51,7 @@ class Header extends Component {
           <div className="subtitle">715-845-6225</div>
           <div className="subtitle">1206 6th Street, Wausau, WI 54403</div>
         </div>
-        <OpeningModal />
+        {/* <OpeningModal /> */ }
         <Menu id="main-menu" pointing secondary fluid widths={5}>
           <Menu.Item name='home' as={Link} to='/' active={this.state.activeItem === 'home'} onClick={this.handleItemClick} />
           <Menu.Item name='menu' as={Link} to='menu' active={this.state.activeItem === 'menu'} onClick={this.handleItemClick} />

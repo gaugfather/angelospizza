@@ -6,16 +6,16 @@ export const beveragesDto = {
       price: '$1.25'
     },
     {
-      name: 'Large Soda (or Milk)',
+      name: 'Large Milk',
       price: '$1.95'
+    },
+    {
+      name: 'Large Soda (Free Refills)',
+      price: '$2.75'
     },
     {
       name: 'Kiddy Cocktail',
       price: '$2.00'
-    },
-    {
-      name: 'Pitcher of Soda',
-      price: '$5.25'
     },
     {
       name: 'Small Juice',
@@ -33,18 +33,18 @@ export const beveragesDto = {
   beers: [
     {
       name: 'Miller Lite / Bud Lite',
-      glassPrice: '$2.75',
-      pitcherPrice: '$8.00'
+      glassPrice: '$3.00',
+      pitcherPrice: '$8.50'
     },
     {
       name: 'Honey Weiss',
-      glassPrice: '$3.25',
-      pitcherPrice: '$8.75'
+      glassPrice: '$3.50',
+      pitcherPrice: '$9.00'
     },
     {
       name: 'Bull Falls Specialties',
-      glassPrice: '$3.75',
-      pitcherPrice: '$9.75'
+      glassPrice: '$4.00',
+      pitcherPrice: '$10.00'
     }
   ]
 };

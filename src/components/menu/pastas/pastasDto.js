@@ -3,7 +3,7 @@ export const pastasDto = {
   dinners:[
     {
       name: 'Meat or Cheese Filled Ravioli',
-      smallPrice: '$6.95',
+      smallPrice: '$7.95',
       largePrice: '$9.95'
     },
     {
@@ -13,7 +13,7 @@ export const pastasDto = {
     },
     {
       name: 'Penne (Small Tubular Pasta)',
-      smallPrice: '$6.95',
+      smallPrice: '$7.95',
       largePrice: '$9.95'
     }
   ]
