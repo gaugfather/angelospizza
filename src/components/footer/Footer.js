@@ -6,7 +6,7 @@ class Footer extends Component {
     return (
       <div id="footer">
         <div className="footerTitle">Angelo's Family Pizzeria</div>
-        <div className="footerSubtitle">715-845-6225</div>
+        <div className="footerSubtitle"><a href="tel:715-845-6225">715-845-6225</a></div>
       </div>
     );
   }

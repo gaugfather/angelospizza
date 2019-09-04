@@ -33,7 +33,7 @@ class Home extends Component {
                 <div className="welcome">Welcome to Angelo's!</div>
                 <div className="welcome1">Where great Italian dining meets a fun, family atmosphere</div>
                 <div className="welcome2">Our specialty pizza has been a Wausau favorite for 49 years!</div>
-                <div className="welcome1">Stop in today or call <span style={{fontWeight: 'bold'}}>715-845-6225</span> for fast, free delivery!</div>
+                <div className="welcome1">Stop in today or call <span style={{fontWeight: 'bold'}}><a href="tel:715-845-6225">715-845-6225</a></span> for fast, free delivery!</div>
                 <br />
               </Segment>
               <HomeCarousel />

@@ -48,7 +48,7 @@ class Header extends Component {
           <div className="facebook" onClick={this.facebookClick}>
             <img src={facebookIcon} alt="facebookIcon"/>
           </div>
-          <div className="subtitle">715-845-6225</div>
+          <div className="subtitle"><a href="tel:715-845-6225">715-845-6225</a></div>
           <div className="subtitle">1206 6th Street, Wausau, WI 54403</div>
         </div>
         {/* <OpeningModal /> */ }

@@ -11,7 +11,7 @@ class Directions extends Component {
           <Segment className="mainSegment">
             <div className="atmosphereHeader">1206 6th Street <br />Wausau, WI 54403</div>
             <div className="atmosphere">
-                Stop in today or call 715-845-6225 for fast delivery throughout the Wausau Area!
+                Stop in today or call <a href="tel:715-845-6225">715-845-6225</a> for fast delivery throughout the Wausau Area!
             </div>
           </Segment>
           <div style={{marginBottom: '100px'}}>
