@@ -3,7 +3,7 @@ import { Menu } from 'semantic-ui-react';
 import {Link} from "react-router-dom";
 import './header.css';
 import facebookIcon from "./facebook_icon.png";
-import OpeningModal from './openingModal/OpeningModal';
+// import OpeningModal from './openingModal/OpeningModal';
 
 class Header extends Component {
 
