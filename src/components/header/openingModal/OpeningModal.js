@@ -31,7 +31,7 @@ class OpeningModal extends Component {
             //   </p>
             }
             <p className="welcome2">
-              Unfortunately due to the new statewide mandate sent by Governor Evers, our dining room and bar is closed. Angelo's will continue to offer free delivery and pick-up for our customers. Please call 715-845-6225 to order.
+              Unfortunately due to the new statewide mandate sent by Governor Evers, our dining room and bar is closed. Angelo's will continue to offer free delivery and pick-up for our customers. Please call <a href="tel:715-845-6225">715-845-6225</a> to order.
 We will stay committed to our employees and customers. Angelo's is a family owned business so we appreciate you thinking of us. Thank you so much for your support during these difficult times.
 Check back for more updates! <span role="img" aria-label="pizza">🍕</span>
             </p>
