@@ -3,7 +3,7 @@ import { Menu } from 'semantic-ui-react';
 import {Link} from "react-router-dom";
 import './header.css';
 import facebookIcon from "./facebook_icon.png";
-// import OpeningModal from './openingModal/OpeningModal';
+import OpeningModal from './openingModal/OpeningModal';
 
 class Header extends Component {
 
@@ -51,7 +51,7 @@ class Header extends Component {
           <div className="subtitle"><a href="tel:715-845-6225">715-845-6225</a></div>
           <div className="subtitle">1206 6th Street, Wausau, WI 54403</div>
         </div>
-        {/* <OpeningModal /> */ }
+        <OpeningModal />
         <Menu id="main-menu" pointing secondary fluid widths={5}>
           <Menu.Item name='home' as={Link} to='/' active={this.state.activeItem === 'home'} onClick={this.handleItemClick} />
           <Menu.Item name='menu' as={Link} to='menu' active={this.state.activeItem === 'menu'} onClick={this.handleItemClick} />

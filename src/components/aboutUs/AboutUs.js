@@ -27,7 +27,7 @@ class AboutUs extends Component {
             </div>
           </Segment>
           <div>
-            <img src={canoe} alt="Canoe" />
+            <img src={canoe} alt="Canoe" style={{'width': '100%'}}/>
           </div>
           <Segment className="mainSegment">
             <div className="atmosphere">

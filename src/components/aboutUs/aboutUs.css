@@ -7,6 +7,11 @@
   line-height: 1.1em;
 }
 
+.atmosphereHeader2 {
+  font-family: 'Fredericka the Great', cursive;
+  line-height: 1.1em;
+}
+
 .atmosphere {
   font-family: 'Josefin Slab', serif;
   line-height: 1.1em;
@@ -17,6 +22,11 @@
     padding-top: 24px;
     font-size: 20pt;
     padding-bottom: 12px;
+  }
+  .atmosphereHeader2 {
+    padding-top: 20px;
+    font-size: 16pt;
+    padding-bottom: 10px;
   }
   .atmosphere {
     font-size: 12pt;
@@ -30,6 +40,11 @@
     font-size: 25pt;
     padding-bottom: 12px;
   }
+  .atmosphereHeader2 {
+    padding-top: 20px;
+    font-size: 20pt;
+    padding-bottom: 10px;
+  }
   .atmosphere {
     font-size: 18pt;
     padding: 10px;
@@ -41,6 +56,11 @@
     padding-top: 24px;
     font-size: 30pt;
     padding-bottom: 12px;
+  }
+  .atmosphereHeader2 {
+    padding-top: 20px;
+    font-size: 20pt;
+    padding-bottom: 10px;
   }
   .atmosphere {
       font-size: 22pt;

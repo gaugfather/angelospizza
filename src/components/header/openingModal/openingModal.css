@@ -1,0 +1,9 @@
+.headerColumn.label {
+  font-size: min(3vw, 16pt);
+}
+.column.value {
+  font-size: min(3vw, 16pt);
+}
+.updatedHours .grid {
+  margin: 0;
+}
