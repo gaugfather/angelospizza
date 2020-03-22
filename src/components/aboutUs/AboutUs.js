@@ -10,22 +10,24 @@ class AboutUs extends Component {
       <div id="aboutUs">
         <Hours />
         <Container>
-          <Segment className="mainSegment">
-            <div className="atmosphereHeader">During your meal...</div>
-            <div className="atmosphere">
-              <List>
-                <List.Item>
-                  Let the kids play in our video arcade while you relax to garlic-bread and the jukebox.
-                </List.Item>
-                <List.Item>
-                  Dine in the adjacent Tuesday's Bar, for some pizza fries and beer.
-                </List.Item>
-                <List.Item>
-                  Our party room can also be reserved for any get together of 15-40 people.
-                </List.Item>
-              </List>
-            </div>
-          </Segment>
+        {
+          // <Segment className="mainSegment">
+          //   <div className="atmosphereHeader">During your meal...</div>
+          //   <div className="atmosphere">
+          //     <List>
+          //       <List.Item>
+          //         Let the kids play in our video arcade while you relax to garlic-bread and the jukebox.
+          //       </List.Item>
+          //       <List.Item>
+          //         Dine in the adjacent Tuesday's Bar, for some pizza fries and beer.
+          //       </List.Item>
+          //       <List.Item>
+          //         Our party room can also be reserved for any get together of 15-40 people.
+          //       </List.Item>
+          //     </List>
+          //   </div>
+          // </Segment>
+        }
           <div>
             <img src={canoe} alt="Canoe" style={{'width': '100%'}}/>
           </div>
