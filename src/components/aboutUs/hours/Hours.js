@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './hours.css';
-import {Container, Segment, Table, Grid} from 'semantic-ui-react';
+import {Container, Segment, Table, Grid, Icon} from 'semantic-ui-react';
 import {openTimes} from './openTimes';
 
 class Hours extends Component {
@@ -10,7 +10,7 @@ class Hours extends Component {
         <Container>
           <Segment className="mainSegment">
             <div className="atmosphereHeader">Our Hours</div>
-            <div className="atmosphereHeader2">**COVID-19 Update: Pickups & Deliveries only</div>
+            <div className="atmosphereHeader2">**COVID-19 Update: Pickups, Deliveries, & our Bar (Tuesdays)<Icon name='beer' style={{marginLeft: '6px'}}/></div>
             <div className="hoursTable updatedHours">
               <Grid textAlign="center">
                 <Table celled collapsing textAlign="center" unstackable>
@@ -20,7 +20,7 @@ class Hours extends Component {
                         <div>Sunday - Thursday</div>
                       </Table.Cell>
                       <Table.Cell className="column value">
-                        <div>4pm - 9pm</div>
+                        <div>4pm - 10pm</div>
                       </Table.Cell>
                     </Table.Row>
                     <Table.Row>
@@ -28,7 +28,7 @@ class Hours extends Component {
                         <div>Friday & Saturday</div>
                       </Table.Cell>
                       <Table.Cell className="column value">
-                        <div>4pm - 10pm</div>
+                        <div>4pm - 11pm</div>
                       </Table.Cell>
                     </Table.Row>
                   </Table.Header>
@@ -89,7 +89,7 @@ class Hours extends Component {
                         <div>Sunday - Thursday</div>
                       </Table.Cell>
                       <Table.Cell className="column value">
-                        <div>4pm - 9pm</div>
+                        <div>4pm - 10pm</div>
                       </Table.Cell>
                     </Table.Row>
                     <Table.Row>
@@ -97,7 +97,7 @@ class Hours extends Component {
                         <div>Friday & Saturday</div>
                       </Table.Cell>
                       <Table.Cell className="column value">
-                        <div>4pm - 10pm</div>
+                        <div>4pm - 11pm</div>
                       </Table.Cell>
                     </Table.Row>
                   </Table.Header>
