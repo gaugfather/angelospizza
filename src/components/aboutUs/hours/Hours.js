@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './hours.css';
 import {Container, Segment, Table, Grid, Icon} from 'semantic-ui-react';
-import {openTimes} from './openTimes';
+// import {openTimes} from './openTimes';
 
 class Hours extends Component {
   render() {

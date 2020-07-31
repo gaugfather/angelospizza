@@ -22,7 +22,12 @@ class OpeningModal extends Component {
 
     return (
       <Modal dimmer={'inverted'} open={this.state.isOpen} onClose={this.close}>
-        <Modal.Header><p className="welcome1"><Icon name="newspaper" style={{marginRight: '12px'}}/>COVID-19 Update</p></Modal.Header>
+        <Modal.Header>
+          <p className="welcome1">
+            <Icon name="newspaper" style={{marginRight: '12px'}}/>COVID-19 Update
+            <div style={{fontSize: '10pt', color: 'grey',fontStyle: 'italic', float: 'right', marginTop: '8px'}}>Last updated: 7/31/2020</div>
+          </p>
+        </Modal.Header>
         <Modal.Content>
           <Modal.Description>
             {//   <Icon name='search' />We're hiring Part-time Bartenders! <br />
@@ -31,9 +36,9 @@ class OpeningModal extends Component {
             //   </p>
             }
             <p className="welcome2">
-              Cheers! <Icon name='beer'/><Icon name='beer'/> Our bar, Tuesdays, is opening starting <b>Tuesday, May 26 at 4pm!</b>  Check out our hours for more details!
+              Cheers! <Icon name='beer'/><Icon name='beer'/> Our bar, <b>Tuesdays</b>, is open for dine-in!  Check our hours for details!
               <br /><br />
-              Unfortunately, the dining room will remain closed as we work toward a plan to stay keep our employees and guests safe.
+              Unfortunately, our dining room remains closed as we continue to work toward a plan to keep our employees and guests safe.
               <br /><br />
               Pick-ups and extended free delivery services will continue!
               <div className="welcome2">
@@ -63,7 +68,7 @@ class OpeningModal extends Component {
                     </Grid>
                 </div>
               </div>
-              <br />              
+              <br />
               Call <a href="tel:715-845-6225">715-845-6225</a> for pick-ups and deliveries!
               <br /><br />
               Angelo's is a family owned business so we appreciate you thinking of us.  Thank you so much for your support during these difficult times.

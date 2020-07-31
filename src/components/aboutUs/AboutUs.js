@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Hours from './hours/Hours';
 import canoe from './canoe.jpg';
 import './aboutUs.css';
-import { Container, Segment, List } from 'semantic-ui-react';
+// import { Container, Segment, List } from 'semantic-ui-react';
+import { Container, Segment } from 'semantic-ui-react';
 
 class AboutUs extends Component {
   render() {
