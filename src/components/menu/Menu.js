@@ -25,7 +25,7 @@ class Menu extends Component {
   }
 
   downloadMenu() {
-    window.open('./menu-2019.pdf', '_blank');
+    window.open('./menu-2020.pdf', '_blank');
   }
 
   render() {
