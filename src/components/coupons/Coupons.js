@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import coupons from "../coupons/coupons0920.png";
+import coupons from "../coupons/coupons1020.png";
 import './coupons.css';
 
 class Coupons extends Component {
