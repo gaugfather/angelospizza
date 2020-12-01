@@ -25,7 +25,7 @@ class OpeningModal extends Component {
         <Modal.Header>
           <p className="welcome1">
             <Icon name="newspaper" style={{marginRight: '12px'}}/>COVID-19 Update
-            <div style={{fontSize: '10pt', color: 'grey',fontStyle: 'italic', float: 'right', marginTop: '8px'}}>Last updated: 10/31/2020</div>
+            <div style={{fontSize: '10pt', color: 'grey',fontStyle: 'italic', float: 'right', marginTop: '8px'}}>Last updated: 12/01/2020</div>
           </p>
         </Modal.Header>
         <Modal.Content>
@@ -36,7 +36,9 @@ class OpeningModal extends Component {
             //   </p>
             }
             <p className="welcome2">
-              Cheers! <Icon name='beer'/><Icon name='beer'/> Our bar, <b>Tuesdays</b>, is open for dine-in!  Check our hours for details!
+              Due aasdfasfasfsdf<Icon name='newspaper' />to the recent surge in the number of COVID cases in our area, we will be closing the bar starting Monday, Nov 2nd.
+              <br /><br />
+              We'll still be OPEN for pick-up and delivery! <span role="img" aria-label="pizza">🍕</span>
               <br /><br />
               Unfortunately, our dining room remains closed as we continue to work toward a plan to keep our employees and guests safe.
               <br /><br />
