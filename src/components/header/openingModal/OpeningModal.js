@@ -36,9 +36,9 @@ class OpeningModal extends Component {
             //   </p>
             }
             <p className="welcome2">
-              Due aasdfasfasfsdf<Icon name='newspaper' />to the recent surge in the number of COVID cases in our area, we will be closing the bar starting Monday, Nov 2nd.
+              Cheers! <Icon name='beer'/><Icon name='beer'/> Our bar, <b>Tuesdays</b>, is open for dine-in!  Check our hours for details!
               <br /><br />
-              We'll still be OPEN for pick-up and delivery! <span role="img" aria-label="pizza">🍕</span>
+              We are also OPEN for pick-up and delivery. <span role="img" aria-label="pizza">🍕</span>
               <br /><br />
               Unfortunately, our dining room remains closed as we continue to work toward a plan to keep our employees and guests safe.
               <br /><br />
