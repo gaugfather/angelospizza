@@ -4,5 +4,6 @@ body {
   font-family: sans-serif;
   display: flex;
   flex-direction: column;
-  background: url('./components/home/Italy-Flag-3.jpg') no-repeat center center fixed !important;
+  background: url('./components/home/Italy-Flag-3.jpg') 50% !important;
+  background-position-y: top !important;
 }
