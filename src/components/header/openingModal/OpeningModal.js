@@ -42,7 +42,7 @@ class OpeningModal extends Component {
               <br /><br />
               Unfortunately, our dining room remains closed as we continue to work toward a plan to keep our employees and guests safe.
               <br /><br />
-              <div style={{lineHeight: '1.5em', paddingBottom: '.5em'}}><Icon name="car" style={{marginRight: '6px'}} size="large" />Due to cost increases in supplies and transportation, there will be a $2.00 delivery charge as of March 1st.  We apologize for any inconvenience.  Thank you for your understanding and support!</div>
+              <div style={{lineHeight: '1.5em', paddingBottom: '.5em'}}><Icon name="car" style={{marginRight: '6px'}} size="large" />Due to cost increases in supplies and transportation, there will be a $2.00 delivery charge as of March 1st.  We apologize for any inconvenience.  Thank you for your understanding and continued support!</div>
               <div className="welcome2">
                 <Icon name='clock' />Our updated hours <br />
                 <div className="updatedHours">
