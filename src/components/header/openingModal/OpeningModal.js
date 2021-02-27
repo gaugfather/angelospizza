@@ -25,7 +25,7 @@ class OpeningModal extends Component {
         <Modal.Header>
           <p className="welcome1">
             <Icon name="newspaper" style={{marginRight: '12px'}}/>COVID-19 Update
-            <div style={{fontSize: '10pt', color: 'grey',fontStyle: 'italic', float: 'right', marginTop: '8px'}}>Last updated: 01/31/2021</div>
+            <div style={{fontSize: '10pt', color: 'grey',fontStyle: 'italic', float: 'right', marginTop: '8px'}}>Last updated: 02/27/2021</div>
           </p>
         </Modal.Header>
         <Modal.Content>
@@ -42,7 +42,7 @@ class OpeningModal extends Component {
               <br /><br />
               Unfortunately, our dining room remains closed as we continue to work toward a plan to keep our employees and guests safe.
               <br /><br />
-              Pick-ups and extended free delivery services will continue!
+              <div style={{lineHeight: '1.5em', paddingBottom: '.5em'}}><Icon name="car" style={{marginRight: '6px'}} size="large" />Due to cost increases in supplies and transportation, there will be a $2.00 delivery charge as of March 1st.  We apologize for any inconvenience.  Thank you for your understanding and support!</div>
               <div className="welcome2">
                 <Icon name='clock' />Our updated hours <br />
                 <div className="updatedHours">
