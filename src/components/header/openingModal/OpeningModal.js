@@ -25,7 +25,7 @@ class OpeningModal extends Component {
         <Modal.Header>
           <p className="welcome1">
             <Icon name="newspaper" style={{marginRight: '12px'}}/>COVID-19 Update
-            <div style={{fontSize: '10pt', color: 'grey',fontStyle: 'italic', float: 'right', marginTop: '8px'}}>Last updated: 02/27/2021</div>
+            <div style={{fontSize: '10pt', color: 'grey',fontStyle: 'italic', float: 'right', marginTop: '8px'}}>Last updated: 03/01/2021</div>
           </p>
         </Modal.Header>
         <Modal.Content>
@@ -39,8 +39,6 @@ class OpeningModal extends Component {
               Cheers! <Icon name='beer'/><Icon name='beer'/> Our bar, <b>Tuesdays</b>, is open for dine-in!  Check our hours for details!
               <br /><br />
               We are also OPEN for pick-up and delivery. <span role="img" aria-label="pizza">🍕</span>
-              <br /><br />
-              Unfortunately, our dining room remains closed as we continue to work toward a plan to keep our employees and guests safe.
               <br /><br />
               <div style={{lineHeight: '1.5em', paddingBottom: '.5em'}}><Icon name="car" style={{marginRight: '6px'}} size="large" />Due to cost increases in supplies and transportation, there will be a $2.00 delivery charge as of March 1st.  We apologize for any inconvenience.  Thank you for your understanding and continued support!</div>
               <div className="welcome2">
