@@ -17,7 +17,23 @@ class Hours extends Component {
                   <Table.Header>
                     <Table.Row>
                       <Table.Cell className="headerColumn label" textAlign="right">
-                        <div>Sunday - Thursday</div>
+                        <div>Sunday</div>
+                      </Table.Cell>
+                      <Table.Cell className="column value">
+                        <div>4pm - 10pm</div>
+                      </Table.Cell>
+                    </Table.Row>
+                    <Table.Row>
+                      <Table.Cell className="headerColumn label" textAlign="right">
+                        <div>Monday</div>
+                      </Table.Cell>
+                      <Table.Cell className="column value">
+                        <div>Closed</div>
+                      </Table.Cell>
+                    </Table.Row>
+                    <Table.Row>
+                      <Table.Cell className="headerColumn label" textAlign="right">
+                        <div>Tuesday - Thursday</div>
                       </Table.Cell>
                       <Table.Cell className="column value">
                         <div>4pm - 10pm</div>
@@ -86,7 +102,23 @@ class Hours extends Component {
                   <Table.Header>
                     <Table.Row>
                       <Table.Cell className="headerColumn label" textAlign="right">
-                        <div>Sunday - Thursday</div>
+                        <div>Sunday</div>
+                      </Table.Cell>
+                      <Table.Cell className="column value">
+                        <div>4pm - 10pm</div>
+                      </Table.Cell>
+                    </Table.Row>
+                    <Table.Row>
+                      <Table.Cell className="headerColumn label" textAlign="right">
+                        <div>Monday</div>
+                      </Table.Cell>
+                      <Table.Cell className="column value">
+                        <div>Closed</div>
+                      </Table.Cell>
+                    </Table.Row>
+                    <Table.Row>
+                      <Table.Cell className="headerColumn label" textAlign="right">
+                        <div>Tuesday - Thursday</div>
                       </Table.Cell>
                       <Table.Cell className="column value">
                         <div>4pm - 10pm</div>

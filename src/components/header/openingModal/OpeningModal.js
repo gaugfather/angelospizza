@@ -25,7 +25,7 @@ class OpeningModal extends Component {
         <Modal.Header>
           <p className="welcome1">
             <Icon name="newspaper" style={{marginRight: '12px'}}/>COVID-19 Update
-            <div style={{fontSize: '10pt', color: 'grey',fontStyle: 'italic', float: 'right', marginTop: '8px'}}>Last updated: 03/01/2021</div>
+            <div style={{fontSize: '10pt', color: 'grey',fontStyle: 'italic', float: 'right', marginTop: '8px'}}>Last updated: 04/26/2021</div>
           </p>
         </Modal.Header>
         <Modal.Content>
@@ -36,11 +36,15 @@ class OpeningModal extends Component {
             //   </p>
             }
             <p className="welcome2">
-              Cheers! <Icon name='beer'/><Icon name='beer'/> Our bar, <b>Tuesdays</b>, is open for dine-in!  Check our hours for details!
-              <br /><br />
-              We are also OPEN for pick-up and delivery. <span role="img" aria-label="pizza">🍕</span>
-              <br /><br />
-              <div style={{lineHeight: '1.5em', paddingBottom: '.5em'}}><Icon name="car" style={{marginRight: '6px'}} size="large" />Due to cost increases in supplies and transportation, there will be a $2.00 delivery charge as of March 1st.  We apologize for any inconvenience.  Thank you for your understanding and continued support!</div>
+            Unfortunately due to our lack of staffing, beginning April 30th, we will be closing our dining room through the summer.
+            We will still take larger reservations with an advanced notice.  Please call the restaurant directly at <a href="tel:715-845-6225">715-845-6225</a> for questions or large group reservations.
+            <br /><br />Pick-ups and deliveries are available and our bar continues to be open! <Icon name='beer'/>
+            <br /><br />In addition, the restaurant will be closed on <b>Mondays</b> to give our employees and family time off. We are hoping this is only temporary.  We are hiring all positions: kitchen, waitstaff, and bartenders.
+            <br /><br />Thank you for your understanding, support, and loyalty.  <br /><br />-The Angelo's Team <span role="img" aria-label="pizza">🍕</span>
+            <br /><br />
+              {
+                 // <div style={{lineHeight: '1.5em', paddingBottom: '.5em'}}><Icon name="car" style={{marginRight: '6px'}} size="large" />Due to cost increases in supplies and transportation, there will be a $2.00 delivery charge as of March 1st.  We apologize for any inconvenience.  Thank you for your understanding and continued support!</div>
+              }
               <div className="welcome2">
                 <Icon name='clock' />Our updated hours <br />
                 <div className="updatedHours">
@@ -49,7 +53,23 @@ class OpeningModal extends Component {
                       <Table.Header>
                         <Table.Row>
                           <Table.Cell className="headerColumn label" textAlign="right">
-                            <div>Sunday - Thursday</div>
+                            <div>Sunday</div>
+                          </Table.Cell>
+                          <Table.Cell className="column value">
+                            <div>4pm - 10pm</div>
+                          </Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
+                          <Table.Cell className="headerColumn label" textAlign="right">
+                            <div>Monday</div>
+                          </Table.Cell>
+                          <Table.Cell className="column value">
+                            <div>Closed</div>
+                          </Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
+                          <Table.Cell className="headerColumn label" textAlign="right">
+                            <div>Tuesday - Thursday</div>
                           </Table.Cell>
                           <Table.Cell className="column value">
                             <div>4pm - 10pm</div>
