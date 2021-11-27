@@ -25,7 +25,7 @@ class OpeningModal extends Component {
         <Modal.Header>
           <p className="welcome1">
             <Icon name="newspaper" style={{marginRight: '12px'}}/>COVID-19 Update
-            <div style={{fontSize: '10pt', color: 'grey',fontStyle: 'italic', float: 'right', marginTop: '8px'}}>Last updated: 09/30/2021</div>
+            <div style={{fontSize: '10pt', color: 'grey',fontStyle: 'italic', float: 'right', marginTop: '8px'}}>Last updated: 11/27/2021</div>
           </p>
         </Modal.Header>
         <Modal.Content>
