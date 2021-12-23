@@ -25,7 +25,7 @@ class OpeningModal extends Component {
         <Modal.Header>
           <p className="welcome1">
             <Icon name="newspaper" style={{marginRight: '12px'}}/>COVID-19 Update
-            <div style={{fontSize: '10pt', color: 'grey',fontStyle: 'italic', float: 'right', marginTop: '8px'}}>Last updated: 11/27/2021</div>
+            <div style={{fontSize: '10pt', color: 'grey',fontStyle: 'italic', float: 'right', marginTop: '8px'}}>Last updated: 12/23/2021</div>
           </p>
         </Modal.Header>
         <Modal.Content>
@@ -36,7 +36,7 @@ class OpeningModal extends Component {
             //   </p>
             }
             <p className="welcome2">
-            Unfortunately due to our lack of staffing, beginning April 30th, we will be closing our dining room through the summer.
+            Unfortunately due to our lack of staffing, beginning April 30th, we will be closing our dining room.
             We will still take larger reservations with an advanced notice.  Please call the restaurant directly at <a href="tel:715-845-6225">715-845-6225</a> for questions or large group reservations.
             <br /><br />Pick-ups and deliveries are available and our bar continues to be open! <Icon name='beer'/>
             <br /><br />In addition, the restaurant will be closed on <b>Mondays</b> to give our employees and family time off. We are hoping this is only temporary.  We are hiring all positions: kitchen, waitstaff, and bartenders.

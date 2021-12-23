@@ -33,18 +33,18 @@ export const beveragesDto = {
   beers: [
     {
       name: 'Miller Lite / Bud Lite',
-      glassPrice: '$3.00',
-      pitcherPrice: '$8.50'
+      glassPrice: '$3.50',
+      pitcherPrice: '$9.50'
     },
     {
       name: 'Honey Weiss',
-      glassPrice: '$3.50',
-      pitcherPrice: '$9.00'
+      glassPrice: '$3.75',
+      pitcherPrice: '$10.00'
     },
     {
       name: 'Bull Falls Specialties',
-      glassPrice: '$4.00',
-      pitcherPrice: '$10.00'
+      glassPrice: '$4.25',
+      pitcherPrice: '$11.00'
     }
   ]
 };

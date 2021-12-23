@@ -3,11 +3,11 @@ export const calzonesDto = {
   calzones:[
     {
       name: 'Spinach and Ricotta',
-      price: '$9.95'
+      price: '$10.50'
     },
     {
       name: 'Sausage and Pepperoni',
-      price: '$9.95'
+      price: '$10.50'
     }
   ]
 };

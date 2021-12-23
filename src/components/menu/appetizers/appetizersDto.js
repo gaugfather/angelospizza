@@ -1,12 +1,12 @@
 export const appetizersDto = [
     {
       name: 'Garlic Bread',
-      price: '$7.95',
+      price: '$8.95',
       description: 'Fresh baked bread topped with garlic butter'
     },
     {
       name: 'Garlic Bread with Cheese',
-      price: '$8.95',
+      price: '$9.75',
       description: 'Fresh baked bread topped with garlic butter and loaded with melted mozzarela cheese'
     },
     {
@@ -16,12 +16,12 @@ export const appetizersDto = [
     },
     {
       name: 'Pizza Fries',
-      price: '$7.95',
+      price: '$8.95',
       description: 'Our homemade pizza fries'
     },
     {
       name: 'Pizza Fries with Cheese and Sauce',
-      price: '$9.95',
+      price: '$10.50',
       description: 'Our homemade pizza fries loaded with melted cheese and served with a side of sauce'
     },
     {
@@ -56,7 +56,7 @@ export const appetizersDto = [
     },
     {
       name: 'Sweet Potato Fries',
-      price: '$9.95',
+      price: '$6.95',
       description: 'Naturally ripened after the harvest for a sweeter flavor'
     },
     {

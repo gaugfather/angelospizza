@@ -28,6 +28,8 @@ class ByoPizzas extends Component {
           Deep Dish: Available in Small (10"), Medium (12") and Large (14")
           <br /><br />
           Extra Cheese: Small......$4.00, Medium......$4.25, Large......$4.50
+          <br /><br />
+          Extra Sauce: $1.00
         </div>
         <List className="menuList">{pizzas}</List>
       </section>
