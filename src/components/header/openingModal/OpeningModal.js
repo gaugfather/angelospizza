@@ -21,85 +21,30 @@ class OpeningModal extends Component {
   render() {
 
     return (
-      <Modal dimmer={'inverted'} open={this.state.isOpen} onClose={this.close}>
+      <Modal dimmer={'inverted'} open={this.state.isOpen} onClose={this.close} closeOnDimmerClick={false}>
         <Modal.Header>
           <p className="welcome1">
-            <Icon name="newspaper" style={{marginRight: '12px'}}/>COVID-19 Update
-            <div style={{fontSize: '10pt', color: 'grey',fontStyle: 'italic', float: 'right', marginTop: '8px'}}>Last updated: 3/31/2022</div>
+            <Icon name="newspaper" style={{marginRight: '12px'}}/>Angelos Pizzeria
+            <div style={{fontSize: '10pt', color: 'grey',fontStyle: 'italic', float: 'right', marginTop: '8px'}}>Last updated: 5/24/2022</div>
           </p>
         </Modal.Header>
         <Modal.Content>
           <Modal.Description>
-            {//   <Icon name='search' />We're hiring Part-time Bartenders! <br />
-            //     <span style={{marginLeft: '1em'}}>Apply within! </span>
-            //     <Icon name='beer' style={{marginLeft: '6px'}}/><Icon name='beer' style={{marginLeft: '6px'}}/>
-            //   </p>
-            }
             <p className="welcome2">
-            Unfortunately due to our lack of staffing, beginning April 30th, we will be closing our dining room.
-            We will still take larger reservations with an advanced notice.  Please call the restaurant directly at <a href="tel:715-845-6225">715-845-6225</a> for questions or large group reservations.
-            <br /><br />Pick-ups and deliveries are available and our bar continues to be open! <Icon name='beer'/>
-            <br /><br />In addition, the restaurant will be closed on <b>Mondays</b> to give our employees and family time off. We are hoping this is only temporary.  We are hiring all positions: kitchen, waitstaff, and bartenders.
-            <br /><br />Thank you for your understanding, support, and loyalty.  <br /><br />-The Angelo's Team <span role="img" aria-label="pizza">🍕</span>
-            <br /><br />
-              {
-                 // <div style={{lineHeight: '1.5em', paddingBottom: '.5em'}}><Icon name="car" style={{marginRight: '6px'}} size="large" />Due to cost increases in supplies and transportation, there will be a $2.00 delivery charge as of March 1st.  We apologize for any inconvenience.  Thank you for your understanding and continued support!</div>
-              }
-              <div className="welcome2">
-                <Icon name='clock' />Our updated hours <br />
-                <div className="updatedHours">
-                  <Grid textAlign="left">
-                    <Table celled collapsing textAlign="center" unstackable>
-                      <Table.Header>
-                        <Table.Row>
-                          <Table.Cell className="headerColumn label" textAlign="right">
-                            <div>Sunday</div>
-                          </Table.Cell>
-                          <Table.Cell className="column value">
-                            <div>4pm - 10pm</div>
-                          </Table.Cell>
-                        </Table.Row>
-                        <Table.Row>
-                          <Table.Cell className="headerColumn label" textAlign="right">
-                            <div>Monday</div>
-                          </Table.Cell>
-                          <Table.Cell className="column value">
-                            <div>Closed</div>
-                          </Table.Cell>
-                        </Table.Row>
-                        <Table.Row>
-                          <Table.Cell className="headerColumn label" textAlign="right">
-                            <div>Tuesday - Thursday</div>
-                          </Table.Cell>
-                          <Table.Cell className="column value">
-                            <div>4pm - 10pm</div>
-                          </Table.Cell>
-                        </Table.Row>
-                        <Table.Row>
-                          <Table.Cell className="headerColumn label" textAlign="right">
-                            <div>Friday & Saturday</div>
-                          </Table.Cell>
-                          <Table.Cell className="column value">
-                            <div>4pm - 11pm</div>
-                          </Table.Cell>
-                        </Table.Row>
-                      </Table.Header>
-                    </Table>
-                    </Grid>
-                </div>
-              </div>
-              <br />
-              Call <a href="tel:715-845-6225">715-845-6225</a> for pick-ups and deliveries!
-              <br /><br />
-              Angelo's is a family owned business so we appreciate you thinking of us.  Thank you so much for your support during these difficult times.
-              <br /><br />
-              Check back for more updates! <span role="img" aria-label="pizza">🍕</span>
+            To Our Valued Angelo’s Patrons,<br /><br />
+We our sad to say that after over 50 years, we will be closing our restaurant and only be selling wholesale frozen pizzas. We have given this a lot of thought and made this difficult decision based on age, health, and family. It’s time to move on and give our son, Pete, the opportunity to take our business in a different direction. We are proud of his decision and hope you will continue to support us. We want to thank Wausau and the surrounding areas for their loyalty and support for so many years. This is such a great community!<br /><br />
+We will have frozen pizzas in your favorite stores and local bars. Our frozen pizzas will also be available for pick-up at our Wausau location. Current gift certificates can still be used but only at our restaurant location.
+<br /><br />Again, thank you for your support! The last day for our bar and delivery service will be Sunday, June 5th. Please follow our <a href='https://www.facebook.com/Angelos-Family-Pizzeria-140523912649155/' style={{textDecoration:"underline"}} target="_blank">Facebook page</a> for locations of our frozen pizzas and hours to pick them up at our Wausau location to follow. <br /><br />
+            <br />-The Angelo's Team <span role="img" aria-label="pizza">🍕</span>
+            <br />
             </p>
           </Modal.Description>
         </Modal.Content>
-        <Modal.Actions>
-          <Button positive icon='checkmark' labelPosition='right' content="Ok" onClick={this.close} />
-        </Modal.Actions>
+        {
+        //  <Modal.Actions>
+        //  <Button positive icon='checkmark' labelPosition='right' content="Ok" onClick={this.close} />
+        // </Modal.Actions>
+      }
       </Modal>
     );
   }
