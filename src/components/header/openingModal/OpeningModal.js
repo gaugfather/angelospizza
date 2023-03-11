@@ -21,20 +21,22 @@ class OpeningModal extends Component {
   render() {
 
     return (
-      <Modal dimmer={'inverted'} open={this.state.isOpen} onClose={this.close} closeOnDimmerClick={false}>
+      <Modal dimmer={'inverted'} open={this.state.isOpen} onClose={this.close} closeOnDimmerClick={false} closeOnEscape={false}>
         <Modal.Header>
           <p className="welcome1">
-            <Icon name="newspaper" style={{marginRight: '12px'}}/>Angelos Pizzeria
-            <div style={{fontSize: '10pt', color: 'grey',fontStyle: 'italic', float: 'right', marginTop: '8px'}}>Last updated: 5/24/2022</div>
+            <Icon name="newspaper" style={{marginRight: '12px'}}/>Angelo's Family Pizzeria
+            <div style={{fontSize: '10pt', color: 'grey',fontStyle: 'italic', float: 'right', marginTop: '8px'}}>Last updated: 3/11/2023</div>
           </p>
         </Modal.Header>
         <Modal.Content>
           <Modal.Description>
             <p className="welcome2">
-            To Our Valued Angelo’s Patrons,<br /><br />
-We our sad to say that after over 50 years, we will be closing our restaurant and only be selling wholesale frozen pizzas. We have given this a lot of thought and made this difficult decision based on age, health, and family. It’s time to move on and give our son, Pete, the opportunity to take our business in a different direction. We are proud of his decision and hope you will continue to support us. We want to thank Wausau and the surrounding areas for their loyalty and support for so many years. This is such a great community!<br /><br />
-We will have frozen pizzas in your favorite stores and local bars. Our frozen pizzas will also be available for pick-up at our Wausau location. Current gift certificates can still be used but only at our restaurant location.
-<br /><br />Again, thank you for your support! The last day for our bar and delivery service will be Sunday, June 5th. Please follow our <a href='https://www.facebook.com/Angelos-Family-Pizzeria-140523912649155/' style={{textDecoration:"underline"}} target="_blank">Facebook page</a> for locations of our frozen pizzas and hours to pick them up at our Wausau location to follow. <br /><br />
+            <span role="img" aria-label="wave">👋</span> Ciao!  We are so excited to be coming back!<br /><br />
+            We are working hard on officially reopening our doors to the public soon!
+            <br /><br />
+            We continue to have frozen pizzas in your favorite stores and local bars.
+            <br /><br />
+            Please follow our <a href='https://www.facebook.com/Angelos-Family-Pizzeria-140523912649155/' style={{textDecoration:"underline"}} target="_blank" rel="noopener noreferrer">Facebook page</a> for the lastest details! <br /><br />
             <br />-The Angelo's Team <span role="img" aria-label="pizza">🍕</span>
             <br />
             </p>
