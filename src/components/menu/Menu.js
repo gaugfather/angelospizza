@@ -34,10 +34,16 @@ class Menu extends Component {
         <Container>
           <Segment className="mainSegment">
             <div className="menuHeader">Our Menu
-              <div className="downloadMenu"><Button secondary onClick={this.downloadMenu}>Download PDF</Button></div>
+              {/* <div className="downloadMenu"><Button secondary onClick={this.downloadMenu}>Download PDF</Button></div> */}
             </div>
-            <div>* Prices are subject to change *</div>
-            <div className="menu">
+            <div style={{fontStyle: 'italic'}}>
+              Under Construction              
+            </div>
+            <br />
+            <div>* Online ordering to be available soon *</div>
+            <br />
+            {/* <div>* Prices are subject to change *</div> */}
+            {/* <div className="menu">
               <div className="contents">
                 <List bulleted horizontal link>
                   <List.Item as='a' onClick={this.goToSection} section="appetizers">Appetizers</List.Item>
@@ -64,7 +70,7 @@ class Menu extends Component {
                 <br /><br />**Notice:** <br />
                 Consuming raw or undercooked meats, seafood, shellfish, or eggs may increase your risk of food borne illness, especially the elderly, very young, pregnant women or if you have an on going medical condition
               </div>
-            </div>
+            </div> */}
           </Segment>
         </Container>
       </div>

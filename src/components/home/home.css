@@ -19,6 +19,13 @@
 .mainSegment .icon {
   margin-right: 1rem;
 }
+.mainSegment ul {
+  list-style-type: none;
+}
+.mainSegment li {
+  padding-bottom: 2px;
+  font-size: 10pt;
+}
 
 @media screen and (min-width: 20px) {
   .mainSegment {
@@ -65,6 +72,10 @@
     font-size: 16pt;
     color: #626265;
     padding-top: 16px;
+  }
+  .mainSegment li {
+    padding-bottom: 2px;
+    font-size: 16pt;
   }
 }
 

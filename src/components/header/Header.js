@@ -51,13 +51,13 @@ class Header extends Component {
           <div className="subtitle"><a href="tel:715-845-6225">715-845-6225</a></div>
           <div className="subtitle">1206 6th Street, Wausau, WI 54403</div>
         </div>
-        <OpeningModal />
+        {/* <OpeningModal /> */}
         <Menu id="main-menu" pointing secondary fluid widths={5}>
           <Menu.Item name='home' as={Link} to='/' active={this.state.activeItem === 'home'} onClick={this.handleItemClick} />
           <Menu.Item name='menu' as={Link} to='menu' active={this.state.activeItem === 'menu'} onClick={this.handleItemClick} />
-          <Menu.Item name='coupons' as={Link} to='coupons' active={this.state.activeItem === 'coupons'} onClick={this.handleItemClick} />
-          <Menu.Item name='directions' as={Link} to='directions' active={this.state.activeItem === 'directions'} onClick={this.handleItemClick} />
-          <Menu.Item name='aboutUs' as={Link} to='aboutUs' active={this.state.activeItem === 'aboutUs'} onClick={this.handleItemClick} />
+          {/* <Menu.Item name='coupons' as={Link} to='coupons' active={this.state.activeItem === 'coupons'} onClick={this.handleItemClick} /> */}
+          <Menu.Item name='aboutUs' as={Link} to='aboutUs' active={this.state.activeItem === 'aboutUs'} onClick={this.handleItemClick} />        
+          <Menu.Item name='directions' as={Link} to='directions' active={this.state.activeItem === 'directions'} onClick={this.handleItemClick} />          
         </Menu>
       </div>
     );
