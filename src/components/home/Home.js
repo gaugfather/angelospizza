@@ -4,7 +4,7 @@ import { Container, Segment, Icon } from 'semantic-ui-react';
 import HomeCarousel from './carousel/HomeCarousel';
 import {Redirect} from "react-router-dom";
 
-const AVAILABLE_MENUS = ["home", "menu", "coupons", "directions", "aboutUs"];
+const AVAILABLE_MENUS = ["home", "menu", "coupons", "directions", "aboutUs", "order"];
 
 class Home extends Component {
 
