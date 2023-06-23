@@ -41,8 +41,10 @@ class Header extends Component {
   }
 
   render() {
+    const isOrdering = window.location.pathname && window.location.pathname === '/order'
+
     return (
-      <div id="header">
+      <div id="header" style={{display: isOrdering ? 'none' : 'block'}}>
         <div>
           <div className="title">Angelo's Family Pizzeria</div>
           <div className="facebook" onClick={this.facebookClick}>
@@ -54,10 +56,10 @@ class Header extends Component {
         {/* <OpeningModal /> */}
         <Menu id="main-menu" pointing secondary fluid widths={5}>
           <Menu.Item name='home' as={Link} to='/' active={this.state.activeItem === 'home'} onClick={this.handleItemClick} />
-          <Menu.Item name='menu' as={Link} to='menu' active={this.state.activeItem === 'menu'} onClick={this.handleItemClick} />
+          <Menu.Item name='order' as={Link} to='order' active={this.state.activeItem === 'order'} onClick={this.handleItemClick} />
           {/* <Menu.Item name='coupons' as={Link} to='coupons' active={this.state.activeItem === 'coupons'} onClick={this.handleItemClick} /> */}
-          <Menu.Item name='aboutUs' as={Link} to='aboutUs' active={this.state.activeItem === 'aboutUs'} onClick={this.handleItemClick} />        
-          <Menu.Item name='directions' as={Link} to='directions' active={this.state.activeItem === 'directions'} onClick={this.handleItemClick} />          
+          <Menu.Item name='aboutUs' as={Link} to='aboutUs' active={this.state.activeItem === 'aboutUs'} onClick={this.handleItemClick} />
+          <Menu.Item name='directions' as={Link} to='directions' active={this.state.activeItem === 'directions'} onClick={this.handleItemClick} />
         </Menu>
       </div>
     );
