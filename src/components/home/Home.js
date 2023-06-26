@@ -20,10 +20,13 @@ class Home extends Component {
     );
   }
 
-  render() {
-    if(this.props.location.search.length > 1 &&
-      AVAILABLE_MENUS.indexOf(this.props.location.search.substring(1)) > -1) {
-        return this.redirectToSubmenu(this.props.location.search.substring(1));
+  render() {        
+    let path = this.props.location.search.substring(1)
+    if (path) {
+      path = path.substring(0,path.indexOf('&'))
+    }
+    if(path && AVAILABLE_MENUS.includes(path)) {
+        return this.redirectToSubmenu(path);
     } else {
       return (
         <div id="home">
