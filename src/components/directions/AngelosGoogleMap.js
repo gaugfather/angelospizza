@@ -6,7 +6,7 @@ class AngelosGoogleMap extends Component {
   render() {
     let latitude = 44.966749;
     let longitude = -89.623733;
-    const googleMapApiKey = "AIzaSyCTop8dC7atPa6ZMMZ-wNlbF-mltKZ1keQ";
+    const googleMapApiKey = process.env.REACT_APP_GOOGLE_MAP_API_KEY;
 
     const AngelosMap = withScriptjs(withGoogleMap((props) =>
       <GoogleMap defaultZoom={17} defaultCenter={{ lat: latitude, lng: longitude }}>
