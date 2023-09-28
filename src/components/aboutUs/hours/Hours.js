@@ -24,10 +24,18 @@ class Hours extends Component {
                     </Table.Row>
                     <Table.Row>
                       <Table.Cell className="headerColumn label" textAlign="right">
-                        <div>Monday - Tuesday</div>
+                        <div>Monday</div>
                       </Table.Cell>
                       <Table.Cell className="column value">
-                        <div>4pm - 8pm</div>
+                        <div>4pm - 9pm</div>
+                      </Table.Cell>
+                    </Table.Row>
+                    <Table.Row>
+                      <Table.Cell className="headerColumn label" textAlign="right">
+                        <div>Tuesday</div>
+                      </Table.Cell>
+                      <Table.Cell className="column value">
+                        <div>4pm - 9pm</div>
                       </Table.Cell>
                     </Table.Row>
                     <Table.Row>
@@ -80,10 +88,18 @@ class Hours extends Component {
                     </Table.Row>
                     <Table.Row>
                       <Table.Cell className="headerColumn label" textAlign="right">
-                        <div>Mon - Tues</div>
+                        <div>Monday</div>
                       </Table.Cell>
                       <Table.Cell className="column value">
-                        <div>4pm - 8pm</div>
+                        <div>4pm - 9pm</div>
+                      </Table.Cell>
+                    </Table.Row>
+                    <Table.Row>
+                      <Table.Cell className="headerColumn label" textAlign="right">
+                        <div>Tuesday</div>
+                      </Table.Cell>
+                      <Table.Cell className="column value">
+                        <div>4pm - 9pm</div>
                       </Table.Cell>
                     </Table.Row>
                     <Table.Row>
