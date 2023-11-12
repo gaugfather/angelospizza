@@ -9,7 +9,8 @@ class Hours extends Component {
         <Container>
           <Segment className="mainSegment">
             <div className="atmosphereHeader">Our Hours</div>
-            <div className="atmosphereHeader2">Pickups & Deliveries</div>
+            {/* <div className="atmosphereHeader2">Pickups & Deliveries</div> */}
+            <div className="atmosphereHeader2">Restaurant & Pub</div>
             <div className="hoursTable updatedHours">
               <Grid textAlign="center">
                 <Table celled collapsing textAlign="center" unstackable>
@@ -19,7 +20,7 @@ class Hours extends Component {
                         <div>Sunday</div>
                       </Table.Cell>
                       <Table.Cell className="column value">
-                        <div>12pm - 9pm</div>
+                        <div>12pm - 8pm</div>
                       </Table.Cell>
                     </Table.Row>
                     <Table.Row>
@@ -27,7 +28,7 @@ class Hours extends Component {
                         <div>Monday</div>
                       </Table.Cell>
                       <Table.Cell className="column value">
-                        <div>4pm - 9pm</div>
+                        <div>4pm - 8pm</div>
                       </Table.Cell>
                     </Table.Row>
                     <Table.Row>
@@ -35,7 +36,7 @@ class Hours extends Component {
                         <div>Tuesday</div>
                       </Table.Cell>
                       <Table.Cell className="column value">
-                        <div>4pm - 9pm</div>
+                        <div>4pm - 8pm</div>
                       </Table.Cell>
                     </Table.Row>
                     <Table.Row>
@@ -43,7 +44,7 @@ class Hours extends Component {
                         <div>Wednesday</div>
                       </Table.Cell>
                       <Table.Cell className="column value">
-                        <div>4pm - 9pm</div>
+                        <div>4pm - 8pm</div>
                       </Table.Cell>
                     </Table.Row>
                     <Table.Row>
@@ -51,7 +52,7 @@ class Hours extends Component {
                         <div>Thursday</div>
                       </Table.Cell>
                       <Table.Cell className="column value">
-                        <div>4pm - 10pm</div>
+                        <div>4pm - 9pm</div>
                       </Table.Cell>
                     </Table.Row>
                     <Table.Row>
@@ -59,7 +60,7 @@ class Hours extends Component {
                         <div>Friday</div>
                       </Table.Cell>
                       <Table.Cell className="column value">
-                        <div>4pm - 11pm</div>
+                        <div>4pm - 10pm</div>
                       </Table.Cell>
                     </Table.Row>
                     <Table.Row>
@@ -67,7 +68,7 @@ class Hours extends Component {
                         <div>Saturday</div>
                       </Table.Cell>
                       <Table.Cell className="column value">
-                        <div>12pm - 11pm</div>
+                        <div>12pm - 10pm</div>
                       </Table.Cell>
                     </Table.Row>
                   </Table.Header>
@@ -83,7 +84,7 @@ class Hours extends Component {
                         <div>Sunday</div>
                       </Table.Cell>
                       <Table.Cell className="column value">
-                        <div>12pm - 9pm</div>
+                        <div>12pm - 8pm</div>
                       </Table.Cell>
                     </Table.Row>
                     <Table.Row>
@@ -91,7 +92,7 @@ class Hours extends Component {
                         <div>Monday</div>
                       </Table.Cell>
                       <Table.Cell className="column value">
-                        <div>4pm - 9pm</div>
+                        <div>4pm - 8pm</div>
                       </Table.Cell>
                     </Table.Row>
                     <Table.Row>
@@ -99,7 +100,7 @@ class Hours extends Component {
                         <div>Tuesday</div>
                       </Table.Cell>
                       <Table.Cell className="column value">
-                        <div>4pm - 9pm</div>
+                        <div>4pm - 8pm</div>
                       </Table.Cell>
                     </Table.Row>
                     <Table.Row>
@@ -107,7 +108,7 @@ class Hours extends Component {
                         <div>Wednesday</div>
                       </Table.Cell>
                       <Table.Cell className="column value">
-                        <div>4pm - 9pm</div>
+                        <div>4pm - 8pm</div>
                       </Table.Cell>
                     </Table.Row>
                     <Table.Row>
@@ -115,7 +116,7 @@ class Hours extends Component {
                         <div>Thursday</div>
                       </Table.Cell>
                       <Table.Cell className="column value">
-                        <div>4pm - 10pm</div>
+                        <div>4pm - 9pm</div>
                       </Table.Cell>
                     </Table.Row>
                     <Table.Row>
@@ -123,7 +124,7 @@ class Hours extends Component {
                         <div>Friday</div>
                       </Table.Cell>
                       <Table.Cell className="column value">
-                        <div>4pm - 11pm</div>
+                        <div>4pm - 10pm</div>
                       </Table.Cell>
                     </Table.Row>
                     <Table.Row>
@@ -131,14 +132,14 @@ class Hours extends Component {
                         <div>Saturday</div>
                       </Table.Cell>
                       <Table.Cell className="column value">
-                        <div>12pm - 11pm</div>
+                        <div>12pm - 10pm</div>
                       </Table.Cell>
                     </Table.Row>
                   </Table.Header>
                 </Table>
               </Grid>
             </div>
-            <div className="atmosphereHeader2">Our Pub (Tuesdays)<Icon name='beer' style={{marginLeft: '6px'}}/></div>
+            {/* <div className="atmosphereHeader2">Our Pub (Tuesdays)<Icon name='beer' style={{marginLeft: '6px'}}/></div>
             <div className="hoursTable updatedHours">
               <Grid textAlign="center">
                 <Table celled collapsing textAlign="center" unstackable>
@@ -186,7 +187,7 @@ class Hours extends Component {
                   </Table.Header>
                 </Table>
               </Grid>
-            </div>          
+            </div>           */}
           </Segment>
         </Container>
       </div>
