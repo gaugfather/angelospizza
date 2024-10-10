@@ -68,7 +68,7 @@ class Hours extends Component {
                         <div>Saturday</div>
                       </Table.Cell>
                       <Table.Cell className="column value">
-                        <div>12pm - 10pm</div>
+                        <div>4pm - 10pm</div>
                       </Table.Cell>
                     </Table.Row>
                   </Table.Header>
@@ -132,7 +132,7 @@ class Hours extends Component {
                         <div>Saturday</div>
                       </Table.Cell>
                       <Table.Cell className="column value">
-                        <div>12pm - 10pm</div>
+                        <div>4pm - 10pm</div>
                       </Table.Cell>
                     </Table.Row>
                   </Table.Header>
