@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Segment } from 'semantic-ui-react';
-import AngelosGoogleMap from './AngelosGoogleMap';
+
+const googleMapApiKey = process.env.REACT_APP_GOOGLE_MAP_API_KEY;
 
 class Directions extends Component {
 
@@ -15,7 +16,8 @@ class Directions extends Component {
             </div>
           </Segment>
           <div style={{marginBottom: '100px'}}>
-            <AngelosGoogleMap />
+            <iframe width="450" height="50"  loading="lazy" allowfullscreen 
+            src={`https://www.google.com/maps/embed/v1/place?q=place_id:ChIJD06KnSwnAIgRcTCIPNE-dRg&zoom=17&key=${googleMapApiKey}`}></iframe>
           </div>
         </Container>
       </div>
